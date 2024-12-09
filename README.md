@@ -27,7 +27,7 @@ Choose a **hosted** or **type 2 hypervisor** of your choice. Among the most comm
 
 **Additional security tip:** When downloading a hypervisor installer remember to get it <ins>checksum</ins> to ensure if the file you downloaded is approved by its developer and doesn't contain any malicious code.
 
-For Windows - to get the **hash** - Open PowerShell > type **Get-FileHash "INSERT YOUR FILE PATH"** 
+For Windows - to get the **hash** - Open PowerShell > type ``` Get-FileHash "INSERT YOUR FILE PATH"  ```
 
 Then you copy the hash directly from the official website you downloaded the installer-file from and compare it with the hash gotten from PowerShell - handy text compare tool is <a href="https://www.diffchecker.com/text-compare">Diffchecker</a>
 
