@@ -45,7 +45,13 @@ In the realm of cybersecurity one of the most widely used Linux distribution is 
 The suggested way of installation for absolute beginners is to choose the method number two - **Pre-built Virtual Machine**.
 
 ### Things to keep in mind:
-- 
+- #### Virtual Machine =/= Sandbox
+    - An execution of malware on your VM can lead to infecting your host machine.
+- #### Create Snapshot, then "break things"
+    - It's crucial to always have ability to bring back your machine to its previous state in which the infection hasn't happened yet.
+
+- #### Properly allocate your resources
+    - Be fully aware of how much of your machine's resources can be allocated to your VMs. Going overboard with allocating too large amount of resources can be fatal for your host machine's hardware.
 
 # FINISHED HERE - 
 # STEP 3
