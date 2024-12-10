@@ -17,7 +17,7 @@ A brief description of your project, its purpose, and what problem it solves.
 ## Installation
 In order to successfully setup a homelab, all the necessary software must be installed. Here I will present a list of handy tools that can be used by anyone who is interested in building his/her own homelab.
 
-### 1. Core
+### Step 1 - Hypervisor
 
 Choose a **hosted** or **type 2 hypervisor** of your choice. Among the most commonly used hypervisors in the industry we can find:
 
@@ -29,7 +29,20 @@ Choose a **hosted** or **type 2 hypervisor** of your choice. Among the most comm
 
 For Windows - to get the **hash** - Open PowerShell > type ``` Get-FileHash "INSERT YOUR FILE PATH"  ```
 
-Then you copy the hash directly from the official website you downloaded the installer-file from and compare it with the hash gotten from PowerShell - a handy text compare tool is <a href="https://www.diffchecker.com/text-compare">Diffchecker</a>
+Then you copy the hash directly from the official website you downloaded the installer-file from and compare it with the hash gotten from PowerShell - a handy text compare tool is <a href="https://www.diffchecker.com/text-compare">Diffchecker</a>.
+
+### Step 2 - Installer Image / Virtual Machine
+
+As soon as your hypervisor is correctly installed on your device, you can get into downloading a **operation system** that will be run on your hypervisor as a **virtual machine**
+
+In the realm of cybersecurity one of the most widely used Linux distribution is called <a href="https://www.kali.org/">Kali</a>. This distribution is known as a penetration testing platform that contains vast amount of tools an utilities used by cybersecurity professionals.
+
+**Kali** offers two ways of installation:
+
+- **Image installer** (requires more configuration, yet offers more control over hardware access).
+- **Pre-built Virtual Machine** (faster to setup but offers less hardware access).
+
+The suggested way of installation for absolute beginners is to choose the method number two - **Pre-built Virtual Machine**.
 
 # FINISHED HERE - SETTING UP Type 2 HYPERVISOR
 
