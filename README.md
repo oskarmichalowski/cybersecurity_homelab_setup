@@ -44,7 +44,11 @@ In the realm of cybersecurity one of the most widely used Linux distribution is 
 
 The suggested way of installation for absolute beginners is to choose the method number two - **Pre-built Virtual Machine**.
 
-# FINISHED HERE - SETTING UP Type 2 HYPERVISOR
+### Things to keep in mind:
+- 
+
+# FINISHED HERE - 
+# STEP 3
 
 ## Features
 - Feature 1
