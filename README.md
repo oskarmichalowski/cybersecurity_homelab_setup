@@ -53,8 +53,15 @@ The suggested way of installation for absolute beginners is to choose the method
 - #### Properly allocate your resources
     - Be fully aware of how much of your machine's resources can be allocated to your VMs. Going overboard with allocating too large amount of resources can be fatal for your host machine's hardware.
 
-# FINISHED HERE - 
-# STEP 3
+### Step 3 - (IMPORTANT) Properly setting up your VMs
+#### Common networking configurations
+- Bridged (not recommended) - This configuration links yours guest machine directly to your host machine's network, which may cause potential infection and damage of your host.
+- NAT (Network Address Translation) Networking - assigns  a single IP to your private network devices - this helps to conserve the limited amount of your IPv4 addresses and also enhances security by obscuring your internal IP address.
+- Host-Only Networking
+- Custom Networking Configuration
+
+# FINISHED HERE - Properly setting up your VMs - (2/3)
+
 
 ## Features
 - Feature 1
