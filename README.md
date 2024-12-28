@@ -60,7 +60,7 @@ The suggested way of installation for absolute beginners is to choose the method
 - Host-Only Networking
 - Custom Networking Configuration
 
-# FINISHED HERE - Properly setting up your VMs - (2/3)
+# FINISHED HERE - Properly setting up your VMs - (2/3 !)
 
 
 ## Features
